@@ -1,0 +1,15 @@
+.main {
+    background-color: aliceblue;
+}
+
+.cityName {
+    font-weight: bold;
+    border-bottom: lightblue 1px solid;
+    float: left;
+}
+
+.cityTemp {
+    float: right;
+    display: block;
+    font-style: italic;
+}
