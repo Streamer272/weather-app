@@ -4,7 +4,7 @@ import "./City.css";
 const City = ({ cityData }) => {
     const [city, setCity] = useState(cityData);
     const [cityName, setCityName] = useState(city.name);
-    const [temp, setTemp] = useState(city.temp)
+    const [temp, setTemp] = useState(city.temp);
 
     return (
         <div className="main">
