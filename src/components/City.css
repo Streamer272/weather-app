@@ -1,14 +1,14 @@
-.main {
-    background-color: aliceblue;
+#city {
+    align-items: center;
 }
 
-.cityName {
+.name {
     font-weight: bold;
     border-bottom: lightblue 1px solid;
     float: left;
 }
 
-.cityTemp {
+.temp {
     float: right;
     display: block;
     font-style: italic;
