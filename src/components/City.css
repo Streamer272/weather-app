@@ -1,15 +1,16 @@
-#city {
-    align-items: center;
+.cityDiv {
+    margin: 0 auto;
+    background-color: aliceblue;
 }
 
 .name {
     font-weight: bold;
+    font-size: 40px;
     border-bottom: lightblue 1px solid;
     float: left;
 }
 
 .temp {
-    float: right;
-    display: block;
+    font-size: 20px;
     font-style: italic;
 }
