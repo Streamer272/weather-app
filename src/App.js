@@ -15,8 +15,7 @@ const App = () => {
     <div className="App">
       <input onChange={(e) => { setCity(e.target.value) }} value={ city }/>
       <button onClick={() => { addCity() }}>+</button>
-      <City cityName={ "London" } cityTemp={ 5 } />
-      <City cityName={ "Bratislava" } cityTemp={ 15 } />
+      { cities.map( (c) => { return <City cityName={ c } cityTemp={ 10 } /> }) }
     </div>
   );
 };
